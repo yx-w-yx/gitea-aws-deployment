@@ -12,6 +12,9 @@ Small to medium development teams who require:
 - Data privacy and security
 
 ## Architecture
+
+![Architecture Diagram](architecture.png)
+
 - **EC2** (t2.micro) - Hosts the Gitea application
 - **RDS** (PostgreSQL, db.t3.micro) - Database for Gitea
 - **VPC** - Custom network with public subnet
